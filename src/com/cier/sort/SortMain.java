@@ -13,6 +13,11 @@ public class SortMain {
         Bubble<Integer> bubble = new Bubble<>();
         bubble.sort(nums);
         print("Bubble", nums);
+
+        random(nums);
+        Insertion<Integer> insertion = new Insertion<>();
+        insertion.sort(nums);
+        print("Insertion", nums);
     }
 
     // random
