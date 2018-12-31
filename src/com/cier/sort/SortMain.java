@@ -18,6 +18,11 @@ public class SortMain {
         Insertion<Integer> insertion = new Insertion<>();
         insertion.sort(nums);
         print("Insertion", nums);
+
+        random(nums);
+        Shell<Integer> shell = new Shell<>();
+        insertion.sort(nums);
+        print("Shell", nums);
     }
 
     // random
