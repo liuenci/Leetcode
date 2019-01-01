@@ -40,3 +40,9 @@
 0. [排序抽象父类](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Sort.java)
 
 1. [选择排序](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Selection.java)
+
+2. [冒泡排序](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Bubble.java)
+
+3. [插入排序](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Insertion.java)
+
+4. [希尔排序]()

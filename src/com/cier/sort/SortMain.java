@@ -21,9 +21,20 @@ public class SortMain {
 
         random(nums);
         Shell<Integer> shell = new Shell<>();
-        insertion.sort(nums);
+        shell.sort(nums);
         print("Shell", nums);
-    }
+
+        random(nums);
+        Up2DownMergeSort<Integer> up2DownMergeSort = new Up2DownMergeSort<>();
+        up2DownMergeSort.sort(nums);
+        print("Up2DownMergeSort", nums);
+
+        random(nums);
+        Down2UpMergeSort<Integer> down2UpMergeSort = new Down2UpMergeSort<>();
+        down2UpMergeSort.sort(nums);
+        print("Down2UpMergeSort", nums);
+
+      }
 
     // random
     public static void random(Integer[] nums) {
