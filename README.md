@@ -31,12 +31,19 @@
 #### 字符串
 1. [Reverse Integer](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ReverseInteger.java)
 
+2. [Valid Parentheses](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ValidParentheses.java)
 #### 树
 1. [二叉树的前序中序后序遍历-递归](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/TreeRecur.java)
 
 2. [二叉树的前序中序后序遍历-非递归](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/TreeUnRecur.java)
 
-### 常规算法
+#### 排序
+1. [Intersecion Of Two Arrays](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/sort/IntersecionOfTwoArrays.java````)
+
+2. [Valid Anagram](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/sort/ValidAnagram.java)
+
+
+### 排序算法
 0. [排序抽象父类](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Sort.java)
 
 1. [选择排序](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Selection.java)
@@ -45,4 +52,10 @@
 
 3. [插入排序](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Insertion.java)
 
-4. [希尔排序]()
+4. [希尔排序](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Shell.java)
+
+5. [自顶向下归并排序](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Up2DownMergeSort.java)
+
+6. [自底向上归并排序](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Down2UpMergeSort.java)
+
+ 
