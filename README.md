@@ -44,6 +44,8 @@
 
 3. [Merge Two Sorted Lists](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/sort/MergeTwoSortedLists.java)
 
+4. [remove-duplicates-from-sorted-array](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/sort/RemoveDuplicatesFromSortedArray.java)
+
 
 ### 排序算法
 0. [排序抽象父类](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/sort/Sort.java)
