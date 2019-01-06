@@ -34,6 +34,9 @@
 2. [valid-arentheses](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ValidParentheses.java)
 
 3. [implement-strstr](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ImplementStrStr.java)
+
+4. [count-and-say](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/CountAndSay.java)
+
 #### 树
 1. [二叉树的前序中序后序遍历-递归](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/TreeRecur.java)
 
