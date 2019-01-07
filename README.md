@@ -23,6 +23,8 @@
 
 2. [two-sum](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/TwoSum.java)
 
+3. [maximum-subarray](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MaximumSubarray.java)
+
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
