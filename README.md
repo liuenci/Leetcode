@@ -39,6 +39,8 @@
 
 4. [count-and-say](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/CountAndSay.java)
 
+5. [plus-one](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/PlusOne.java)
+
 #### 树
 1. [二叉树的前序中序后序遍历-递归](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/TreeRecur.java)
 
