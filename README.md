@@ -27,6 +27,8 @@
 
 4. [merge-sorted-array](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MergeSortedArray.java)
 
+5. [pascals-triangle](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/PascalsTriangle.java)
+
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
