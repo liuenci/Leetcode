@@ -50,6 +50,8 @@
 
 3. [symmetric-tree](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/SymmetricTree.java)
 
+4. [maximum-depth-of-binary-tree](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/MaximumDepthOfBinaryTree.java)
+
 #### 数学
 1. [Sqrtx](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/Sqrtx.java)
 
