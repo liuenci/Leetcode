@@ -46,6 +46,8 @@
 
 2. [二叉树的前序中序后序遍历-非递归](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/TreeUnRecur.java)
 
+#### 数学
+1. [Sqrtx](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/Sqrtx.java)
 #### 排序
 1. [intersecion-of-two-arrays](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/sort/IntersecionOfTwoArrays.java````)
 
