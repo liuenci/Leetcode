@@ -25,6 +25,8 @@
 
 3. [maximum-subarray](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MaximumSubarray.java)
 
+4. [merge-sorted-array](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MergeSortedArray.java)
+
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
@@ -51,6 +53,7 @@
 
 #### db
 1. [climbing-stairs](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/dp/ClimbingStairs.java)
+
 #### 排序
 1. [intersecion-of-two-arrays](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/sort/IntersecionOfTwoArrays.java````)
 
