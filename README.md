@@ -67,6 +67,8 @@
 
 4. [maximum-depth-of-binary-tree](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/MaximumDepthOfBinaryTree.java)
 
+5. [convert-sorted-array-to-binary-search-tree](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/ConvertSortedArrayToBinarySearchTree.java)
+
 #### 数学
 1. [Sqrtx](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/Sqrtx.java)
 
