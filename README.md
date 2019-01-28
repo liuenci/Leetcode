@@ -32,6 +32,8 @@
 6. [best-time-to-buy-and-sell-stock](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/BestTimeToBuyAndSellStock.java)
 
 7. [single-number](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/SingleNumber.java)
+
+8. [majority-element](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MajorityElement.java)
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
