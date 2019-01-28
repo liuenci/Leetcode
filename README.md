@@ -38,6 +38,8 @@
 9. [longest-common-prefix](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/LongestCommonPrefix.java)
 
 10. [best-time-to-buy-and-sell-stock-ii](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/BestTimeToBuyAndSellStockII.java)
+
+11. [rotate-array](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/RotateArray.java)
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
