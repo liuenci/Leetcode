@@ -78,6 +78,8 @@
 #### 数学
 1. [Sqrtx](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/Sqrtx.java)
 
+2. [sum-of-two-integers](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/SumOfTwoIntegers.java)
+
 #### db
 1. [climbing-stairs](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/dp/ClimbingStairs.java)
 
