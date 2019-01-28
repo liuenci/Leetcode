@@ -80,6 +80,8 @@
 
 2. [sum-of-two-integers](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/SumOfTwoIntegers.java)
 
+3. [factorial-trailing-zeroes](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/FactorialTrailingZeroes.java)
+
 #### db
 1. [climbing-stairs](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/dp/ClimbingStairs.java)
 
