@@ -34,6 +34,8 @@
 7. [single-number](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/SingleNumber.java)
 
 8. [majority-element](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MajorityElement.java)
+
+9. [longest-common-prefix](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/LongestCommonPrefix.java)
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
