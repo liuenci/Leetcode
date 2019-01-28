@@ -84,6 +84,8 @@
 
 3. [factorial-trailing-zeroes](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/FactorialTrailingZeroes.java)
 
+4. [reverse-bits](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/ReverseBits.java)
+
 #### db
 1. [climbing-stairs](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/dp/ClimbingStairs.java)
 
