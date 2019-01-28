@@ -45,6 +45,8 @@
 
 3. [linked-list-cycle](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/LinkedListCycle.java)
 
+4. [intersection-of-two-linked-lists](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/IntersectionOfTwoLinkedLists.java)
+
 #### 字符串
 1. [reverse-integer](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ReverseInteger.java)
 
