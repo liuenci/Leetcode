@@ -86,6 +86,8 @@
 
 4. [reverse-bits](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/ReverseBits.java)
 
+5. [number-of-1-bits](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/NumberOf1Bits.java)
+
 #### db
 1. [climbing-stairs](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/dp/ClimbingStairs.java)
 
