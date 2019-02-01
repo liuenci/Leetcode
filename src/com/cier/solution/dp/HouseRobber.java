@@ -1,4 +1,4 @@
-package com.cier.solution.array;
+package com.cier.solution.dp;
 // https://leetcode.com/problems/house-robber/
 public class HouseRobber {
     public int rob(int[] nums) {

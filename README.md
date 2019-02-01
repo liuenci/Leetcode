@@ -91,6 +91,8 @@
 #### db
 1. [climbing-stairs](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/dp/ClimbingStairs.java)
 
+2. [house-robber](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/HouseRobber.java)
+
 #### 排序
 1. [intersecion-of-two-arrays](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/sort/IntersecionOfTwoArrays.java````)
 
