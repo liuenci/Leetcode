@@ -88,6 +88,7 @@
 
 5. [number-of-1-bits](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/NumberOf1Bits.java)
 
+6. [happy-number](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/HappyNumber.java)
 #### db
 1. [climbing-stairs](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/dp/ClimbingStairs.java)
 
