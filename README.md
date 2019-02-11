@@ -40,6 +40,8 @@
 10. [best-time-to-buy-and-sell-stock-ii](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/BestTimeToBuyAndSellStockII.java)
 
 11. [rotate-array](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/RotateArray.java)
+
+12. [contains-duplicate](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/ContainsDuplicate.java)
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
