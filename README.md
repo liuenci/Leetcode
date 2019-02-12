@@ -42,6 +42,8 @@
 11. [rotate-array](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/RotateArray.java)
 
 12. [contains-duplicate](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/ContainsDuplicate.java)
+
+13. [missing-number](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MissingNumber.java)
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
