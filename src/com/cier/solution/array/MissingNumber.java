@@ -16,4 +16,13 @@ public class MissingNumber {
         }
         return temp;
     }
+
+    public int missingNumber2(int[] nums) {
+        // 0 1 2 3 5
+        int sum = 0;
+        for (int i : nums) {
+            sum += i;
+        }
+        return (nums.length * (nums.length + 1)) / 2 - sum;
+    }
 }
