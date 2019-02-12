@@ -53,6 +53,8 @@
 
 5. [palindrome-linked-list](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/PalindromeLinkedList.java)
 
+6. [delete-node-in-a-linked-list](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/DeleteNodeInALinkedList.java)
+
 #### 字符串
 1. [reverse-integer](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ReverseInteger.java)
 
