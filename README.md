@@ -47,7 +47,9 @@
 
 14. [move-zeroes](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MoveZeroes.java)
 
-15. [](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/IntersectionOfTwoArraysII.java)
+15. [intersection-of-two-arrays-ii](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/IntersectionOfTwoArraysII.java)
+
+16. [fizz-buzz](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/FizzBuzz.java)
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
