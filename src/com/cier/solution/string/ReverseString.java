@@ -5,7 +5,7 @@ public class ReverseString {
     // ["h","e","l","l"]
     public void reverseString(char[] s) {
         int mid = s.length / 2;
-        if (mid % 2 == 0) {
+        if (s.length % 2 == 0) {
             for (int i = 0; i < mid; i++) {
                 char temp = s[i];
                 s[i] = s[s.length - i - 1];
