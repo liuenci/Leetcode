@@ -25,10 +25,43 @@
 
 3. [maximum-subarray](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MaximumSubarray.java)
 
+4. [merge-sorted-array](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MergeSortedArray.java)
+
+5. [pascals-triangle](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/PascalsTriangle.java)
+
+6. [best-time-to-buy-and-sell-stock](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/BestTimeToBuyAndSellStock.java)
+
+7. [single-number](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/SingleNumber.java)
+
+8. [majority-element](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MajorityElement.java)
+
+9. [longest-common-prefix](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/LongestCommonPrefix.java)
+
+10. [best-time-to-buy-and-sell-stock-ii](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/BestTimeToBuyAndSellStockII.java)
+
+11. [rotate-array](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/RotateArray.java)
+
+12. [contains-duplicate](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/ContainsDuplicate.java)
+
+13. [missing-number](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MissingNumber.java)
+
+14. [move-zeroes](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/MoveZeroes.java)
+
+15. [intersection-of-two-arrays-ii](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/IntersectionOfTwoArraysII.java)
+
+16. [fizz-buzz](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/FizzBuzz.java)
 #### 链表
 1. [common-list-part](https://github.com/liuenci/Leetcode/tree/master/src/com/cier/solution/LinkedList)
 
 2. [remove-last-kth-node](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/RemoveLastKthNode.java)
+
+3. [linked-list-cycle](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/LinkedListCycle.java)
+
+4. [intersection-of-two-linked-lists](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/IntersectionOfTwoLinkedLists.java)
+
+5. [palindrome-linked-list](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/PalindromeLinkedList.java)
+
+6. [delete-node-in-a-linked-list](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/LinkedList/DeleteNodeInALinkedList.java)
 
 #### 字符串
 1. [reverse-integer](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ReverseInteger.java)
@@ -39,10 +72,49 @@
 
 4. [count-and-say](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/CountAndSay.java)
 
+5. [plus-one](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/PlusOne.java)
+
+6. [valid-anagram](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ValidAnagram.java)
+
+7. [valid-palindrome](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ValidPalindrome.java)
+
+8. [excel-sheet-column-number](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ExcelSheetColumnNumber.java)
+
+9. [reverse-string](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/ReverseString.java)
+
+10. [first-unique-character-in-a-string](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/string/FirstUniqueCharacterInAString.java)
+
 #### 树
 1. [二叉树的前序中序后序遍历-递归](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/TreeRecur.java)
 
 2. [二叉树的前序中序后序遍历-非递归](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/TreeUnRecur.java)
+
+3. [symmetric-tree](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/SymmetricTree.java)
+
+4. [maximum-depth-of-binary-tree](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/MaximumDepthOfBinaryTree.java)
+
+5. [convert-sorted-array-to-binary-search-tree](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/tree/ConvertSortedArrayToBinarySearchTree.java)
+
+#### 数学
+1. [Sqrtx](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/Sqrtx.java)
+
+2. [sum-of-two-integers](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/SumOfTwoIntegers.java)
+
+3. [factorial-trailing-zeroes](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/FactorialTrailingZeroes.java)
+
+4. [reverse-bits](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/ReverseBits.java)
+
+5. [number-of-1-bits](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/NumberOf1Bits.java)
+
+6. [happy-number](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/HappyNumber.java)
+
+7. [count-primes](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/CountPrimes.java)
+
+8. [power-of-three](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/math/PowerOfThree.java)
+#### db
+1. [climbing-stairs](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/dp/ClimbingStairs.java)
+
+2. [house-robber](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/array/HouseRobber.java)
 
 #### 排序
 1. [intersecion-of-two-arrays](https://github.com/liuenci/Leetcode/blob/master/src/com/cier/solution/sort/IntersecionOfTwoArrays.java````)
