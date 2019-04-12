@@ -2,9 +2,6 @@ package com.cier.solution.LinkedList;
 
 import com.cier.solution.common.ListNode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * https://leetcode.com/problems/add-two-numbers/
  */
