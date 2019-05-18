@@ -1,4 +1,4 @@
-package com.cier.solution.LinkedList;
+package com.cier.solution.linklist;
 
 import com.cier.solution.common.DoubleNode;
 import com.cier.solution.common.Node;

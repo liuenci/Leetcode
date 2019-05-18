@@ -158,9 +158,9 @@ public class MaxTree {
         LinkedList<TreeNode> list = new LinkedList<>();
         for (int i = 0; i < nums.length; i++) {
             TreeNode curNode = new TreeNode(nums[i]);
-            // list.peek() 代表 LinkedList 的第一个节点
+            // list.peek() 代表 linklist 的第一个节点
             while (!list.isEmpty() && list.peek().val < curNode.val) {
-                // list.pop() 代表弹出 LinkedList 的第一个节点。
+                // list.pop() 代表弹出 linklist 的第一个节点。
                 curNode.left = list.pop();
             }
             if (!list.isEmpty()) {
@@ -169,7 +169,7 @@ public class MaxTree {
             // list.push() 代表在 list 的头部压入一个节点
             list.push(curNode);
         }
-        // list.removeLast() 代表移除 LinkedList 的最后一个节点
+        // list.removeLast() 代表移除 linklist 的最后一个节点
         return list.isEmpty() ? null : list.removeLast();
     }
 }
