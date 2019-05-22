@@ -8,6 +8,50 @@ import java.math.BigInteger;
  * https://leetcode.com/problems/add-two-numbers/
  */
 public class AddTwoNumbers {
+    /**
+     * Runtime: 2 ms, faster than 94.85% of Java online submissions for Add Two Numbers.
+     * Memory Usage: 43.5 MB, less than 87.44% of Java online submissions for Add Two Numbers.
+     * @param l1
+     * @param l2
+     * @return
+     */
+    public ListNode addTwoNumbers3(ListNode l1, ListNode l2) {
+        ListNode head = null;
+        ListNode tail = null;
+        // one 用来判断是否应该进位
+        boolean one = false;
+        while (l1 != null || l2 != null) {
+            int val = 0;
+            if (l1 != null) {
+                val += l1.val;
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                val += l2.val;
+                l2 = l2.next;
+            }
+            if (one) {
+                val += 1;
+            }
+            // 判断是否进位
+            if (val >= 10) {
+                val -= 10;
+                one = true;
+            }else {
+                one = false;
+            }
+            if (head == null) {
+                head = tail = new ListNode(val);
+            }else {
+                tail.next = new ListNode(val);
+                tail = tail.next;
+            }
+        }
+        if (one) {
+            tail.next = new ListNode(1);
+        }
+        return head;
+    }
 
     /**
      * Runtime: 2 ms, faster than 94.96% of Java online submissions for Add Two Numbers.
