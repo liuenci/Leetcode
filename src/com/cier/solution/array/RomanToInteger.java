@@ -14,14 +14,14 @@ public class RomanToInteger {
 
     public static int romanToInt(String s) {
         int count = 0;
-        for (int i = 0; i < s.length(); i++){
+        for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             switch (c) {
                 case 'I':
-                    if (i != s.length() - 1 && s.charAt(i+1) == 'V') {
+                    if (i != s.length() - 1 && s.charAt(i + 1) == 'V') {
                         count += 4;
                         i++;
-                    } else if (i != s.length() - 1 && s.charAt(i+1) == 'X') {
+                    } else if (i != s.length() - 1 && s.charAt(i + 1) == 'X') {
                         count += 9;
                         i++;
                     } else {
@@ -32,10 +32,10 @@ public class RomanToInteger {
                     count += 5;
                     break;
                 case 'X':
-                    if (i != s.length() - 1 && s.charAt(i+1) == 'L') {
+                    if (i != s.length() - 1 && s.charAt(i + 1) == 'L') {
                         count += 40;
                         i++;
-                    } else if (i != s.length() - 1 && s.charAt(i+1) == 'C') {
+                    } else if (i != s.length() - 1 && s.charAt(i + 1) == 'C') {
                         count += 90;
                         i++;
                     } else {
@@ -46,10 +46,10 @@ public class RomanToInteger {
                     count += 50;
                     break;
                 case 'C':
-                    if (i != s.length() - 1 && s.charAt(i+1) == 'D') {
+                    if (i != s.length() - 1 && s.charAt(i + 1) == 'D') {
                         count += 400;
                         i++;
-                    } else if (i != s.length() - 1 && s.charAt(i+1) == 'M') {
+                    } else if (i != s.length() - 1 && s.charAt(i + 1) == 'M') {
                         count += 900;
                         i++;
                     } else {
@@ -67,6 +67,48 @@ public class RomanToInteger {
             }
         }
         return count;
+    }
+
+    /**
+     * Runtime: 4 ms, faster than 81.66% of Java online submissions for Roman to Integer.
+     * Memory Usage: 36 MB, less than 99.95% of Java online submissions for Roman to Integer.
+     * @param s
+     * @return
+     */
+    public int romanToInt2(String s) {
+        String[][] lookup = {
+                {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
+                {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"},
+                {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"},
+                {"", "M", "MM", "MMM"}
+        };
+        int ret = 0;
+        int base = 1000;
+        int x = 3;
+        int y = 3;
+        int pos = 0;
+        while (pos < s.length()){
+            if (pos + lookup[x][y].length() <= s.length()) {
+                boolean wrong = false;
+                for (int i = 0; i < lookup[x][y].length(); i++) {
+                    if (lookup[x][y].charAt(i) != s.charAt(pos + i)){
+                        wrong = true;
+                        break;
+                    }
+                }
+                if (!wrong) {
+                    pos += lookup[x][y].length();
+                    ret += base * y;
+                }
+            }
+            y--;
+            if (y == 0) {
+                base /= 10;
+                x--;
+                y = 9;
+            }
+        }
+        return ret;
     }
 
     public static void main(String[] args) {
