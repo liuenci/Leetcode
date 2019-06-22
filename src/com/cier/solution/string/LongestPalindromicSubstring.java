@@ -7,6 +7,7 @@ public class LongestPalindromicSubstring {
     /**
      * Runtime: 54 ms, faster than 32.14% of Java online submissions for Longest Palindromic Substring.
      * Memory Usage: 37.8 MB, less than 75.25% of Java online submissions for Longest Palindromic Substring.
+     *
      * @param s
      * @return
      */
@@ -26,8 +27,9 @@ public class LongestPalindromicSubstring {
         }
         return res;
     }
+
     public String longestPalindrome1(String s) {
-        if(s.equals("")){
+        if (s.equals("")) {
             return "";
         }
         int l = 0;
@@ -47,7 +49,7 @@ public class LongestPalindromicSubstring {
                 }
             }
             if (i + 1 < n && s.charAt(i) == s.charAt(i + 1)) {
-                for (int j = 0; j < Math.min(i + 1, n - i - 1); j++ ) {
+                for (int j = 0; j < Math.min(i + 1, n - i - 1); j++) {
                     if (s.charAt(i - j) != s.charAt(i + 1 + j)) {
                         break;
                     }
@@ -59,10 +61,59 @@ public class LongestPalindromicSubstring {
                 }
             }
         }
-        return s.substring(l,r + 1);
+        return s.substring(l, r + 1);
     }
+
+    public String longestPalindrome2(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        String data = "#";
+        for (int i = 0;i < s.length();i++) {
+            data += s.charAt(i);
+            data += "#";
+        }
+        //半径
+        int[] rad = new int[data.length()];
+        int id = 0;
+        int mx = 0;
+        for (int i = 1;i < data.length();i++) {
+            int last = 0;
+            if (i > mx) {
+                last = i;
+            } else {
+                if (rad[2 * id - i] < mx - i) {
+                    //2*id-i为中心的最大回文被以id为中心的最大回文所覆盖，没必要继续扩展下去，直接返回
+                    rad[i] = rad[2 * id - i];
+                    continue;
+                } else {
+                    last = mx;
+                }
+            }
+            //继续扩展
+            while (last + 1 < data.length() && 2 * i - (last + 1) >= 0 && data.charAt(last + 1) == data.charAt(2 * i - (last + 1))) {
+                last++;
+            }
+            rad[i] = last - i;
+            id = i;
+            mx = last;
+        }
+        int left = 0, right = 0;
+        for (int i = 0;i < data.length();i++) {
+            //因为有#的存在，i-rad[i]必是#，也就是偶数下标，i-rad[i]+1对应的必是字母，所以(i-rad[i]+1-1)/2就是原来字母的位置
+            int temp_left = (i - rad[i]) / 2;
+            //同理
+            int temp_right = (i + rad[i] - 2) / 2;
+            if (temp_left < temp_right && right - left < temp_right - temp_left) {
+                left = temp_left;
+                right = temp_right;
+            }
+        }
+        return s.substring(left, right + 1);
+    }
+
     public static void main(String[] args) {
         LongestPalindromicSubstring l = new LongestPalindromicSubstring();
-        l.longestPalindrome("aba");
+        l.longestPalindrome2("abcdbbfcba");
     }
 }
