@@ -1,10 +1,20 @@
 package com.cier.solution.sort;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 
-// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+/**
+ * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ */
 public class RemoveDuplicatesFromSortedArray {
-
+    /**
+     * Runtime: 1 ms, faster than 99.23% of Java online submissions for Remove Duplicates from Sorted Array.
+     * Memory Usage: 38.7 MB, less than 99.96% of Java online submissions for Remove Duplicates from Sorted Array.
+     * @param nums
+     * @return
+     */
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -22,9 +32,17 @@ public class RemoveDuplicatesFromSortedArray {
         return i + 1;
     }
 
+    /**
+     * 由于题目规定不能创建新的空间，所以不能使用类似 Set 进行去重。
+     * 同时 Java 的数组没有 pop 的方法，因此我们考虑每次发现有重复的元素时，就将数组后面的数全部前移一位。
+     * 这样的缺陷就是比较慢了。
+     * @param nums
+     * @return
+     */
     public int removeDuplicates2(int[] nums) {
-        // len 初始化为 nums 的长度，当发现重复的元素则会递减。
+        // len 用来计算最终的数组中不重复的数值
         int len = nums.length;
+        // i 指针用来计算不重复的数个数
         int i = 0;
         while (i < len - 1) {
             if (nums[i] == nums[i + 1]) {
@@ -33,7 +51,7 @@ public class RemoveDuplicatesFromSortedArray {
                     nums[j] = nums[j + 1];
                 }
                 len--;
-            }else {
+            } else {
                 i++;
             }
         }
