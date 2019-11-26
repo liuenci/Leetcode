@@ -5,4 +5,4 @@ LeetCode 题解
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](src/com/cier/solution/array/TwoSum.java)|Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [Java](src/com/cier/solution/linklist/AddTwoNumbers.java)|Medium|
-|2|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](src/com/cier/solution/string/LongestSubstringWithoutRepeatingCharacters.java)|Medium|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](src/com/cier/solution/string/LongestSubstringWithoutRepeatingCharacters.java)|Medium|
