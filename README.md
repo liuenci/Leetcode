@@ -20,3 +20,4 @@ LeetCode 题解
 |15|[3Sum](https://leetcode.com/problems/3sum/)| [Java](src/com/cier/solution/array/ThreeSum.java)|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Java](src/com/cier/solution/array/ThreeSumClosest.java)|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Java](src/com/cier/solution/array/LetterCombinationsOfAPhoneNumber.java)|Medium|
+|18|[4Sum](https://leetcode.com/problems/4sum/)| [Java](src/com/cier/solution/array/FourSum.java)|Medium|
