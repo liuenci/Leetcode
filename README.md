@@ -21,3 +21,5 @@ LeetCode 题解
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Java](src/com/cier/solution/array/ThreeSumClosest.java)|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Java](src/com/cier/solution/array/LetterCombinationsOfAPhoneNumber.java)|Medium|
 |18|[4Sum](https://leetcode.com/problems/4sum/)| [Java](src/com/cier/solution/array/FourSum.java)|Medium|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Java](src/com/cier/solution/linklist/RemoveNthNodeFromEndOfList.java)|Medium|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](src/com/cier/solution/StackAndQueue/ValidParentheses.java)|Medium|
