@@ -24,3 +24,4 @@ LeetCode 题解
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Java](src/com/cier/solution/linklist/RemoveNthNodeFromEndOfList.java)|Medium|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](src/com/cier/solution/StackAndQueue/ValidParentheses.java)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Java](src/com/cier/solution/sort/MergeTwoSortedLists.java)|Medium|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Java](src/com/cier/solution/array/GenerateParentheses.java)|Medium|
