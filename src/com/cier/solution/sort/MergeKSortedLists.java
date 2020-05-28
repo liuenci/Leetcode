@@ -22,7 +22,7 @@ public class MergeKSortedLists {
                 node = node.next;
             }
         }
-        
+
         // 把队列中元素添加到了新的链表
         ListNode ans = null;
         while (!queue.isEmpty()) {
