@@ -30,6 +30,7 @@ public class MergeKSortedLists {
             curr.next = ans;
             ans = curr;
         }
+        
         return ans;
     }
 }
