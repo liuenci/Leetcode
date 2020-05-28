@@ -14,6 +14,7 @@ import java.util.Queue;
 public class MergeKSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {
         Queue<Integer> queue = new PriorityQueue<>((i1, i2) -> Integer.compare(i2, i1));
+
         // 合并列表元素到队列
         for (ListNode node : lists) {
             while (node != null) {
@@ -21,6 +22,7 @@ public class MergeKSortedLists {
                 node = node.next;
             }
         }
+        
         // 把队列中元素添加到了新的链表
         ListNode ans = null;
         while (!queue.isEmpty()) {
