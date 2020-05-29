@@ -1,4 +1,4 @@
-package com.cier.solution.linklist;
+package com.cier.solution.list;
 
 import java.util.HashMap;
 
