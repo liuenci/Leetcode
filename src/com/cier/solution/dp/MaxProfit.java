@@ -89,13 +89,9 @@ public class MaxProfit {
         // 卖出的最大收益 = 当天股价 - 历史的最低点
         int maxSellProfit = Integer.MIN_VALUE;
         for (int i = 0; i < prices.length; i++) {
-            if (maxBuyProfit > prices[i]) {
-                maxBuyProfit = prices[i];
-            }
+            maxBuyProfit = Math.min(maxBuyProfit, prices[i]);
             int profit = prices[i] - maxBuyProfit;
-            if (maxSellProfit < profit) {
-                maxSellProfit = profit;
-            }
+            maxSellProfit = Math.max(maxSellProfit, profit);
         }
         return maxSellProfit;
     }
