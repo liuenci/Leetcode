@@ -28,4 +28,4 @@ LeetCode 题解
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Java](src/com/cier/solution/sort/MergeKSortedLists.java)|Medium|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Java](src/com/cier/solution/list/SwapNodesInPairs.java)|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](src/com/cier/solution/sort/RemoveDuplicatesFromSortedArray.java)|Medium|
-|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](com/cier/solution/dp/MaxProfit.java)|Easy|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](src/com/cier/solution/dp/MaxProfit.java)|Easy|
