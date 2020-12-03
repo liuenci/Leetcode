@@ -77,4 +77,26 @@ public class MaxProfit {
         }
         return maxProfit;
     }
+
+    public int maxProfit3(int[] prices) {
+        if (prices == null || prices.length == 0) {
+            return 0;
+        }
+        // 记录买入的最大收益
+        int maxBuyProfit = prices[0];
+
+        // 记录卖出的最大收益
+        // 卖出的最大收益 = 当天股价 - 历史的最低点
+        int maxSellProfit = Integer.MIN_VALUE;
+        for (int i = 0; i < prices.length; i++) {
+            if (maxBuyProfit > prices[i]) {
+                maxBuyProfit = prices[i];
+            }
+            int profit = prices[i] - maxBuyProfit;
+            if (maxSellProfit < profit) {
+                maxSellProfit = profit;
+            }
+        }
+        return maxSellProfit;
+    }
 }
