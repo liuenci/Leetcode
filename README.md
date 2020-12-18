@@ -30,3 +30,4 @@ LeetCode 题解
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](src/com/cier/solution/sort/RemoveDuplicatesFromSortedArray.java)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Java](src/com/cier/solution/dp/MaxSubArray.java)|Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](src/com/cier/solution/dp/MaxProfit.java)|Easy|
+|392|[is-subsequence](https://leetcode.com/problems/is-subsequence/)| [Java](src/com/cier/solution/dp/IsSubsequence.java)|Easy|
