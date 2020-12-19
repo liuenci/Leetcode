@@ -31,3 +31,4 @@ LeetCode 题解
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Java](src/com/cier/solution/dp/MaxSubArray.java)|Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](src/com/cier/solution/dp/MaxProfit.java)|Easy|
 |392|[is-subsequence](https://leetcode.com/problems/is-subsequence/)| [Java](src/com/cier/solution/dp/IsSubsequence.java)|Easy|
+|746|[min-cost-climbing-stairs](leetcode-cn.com/problems/min-cost-climbing-stairs/)| [Java](src/com/cier/solution/dp/MinCostClimbingStairs.java)|Easy|
