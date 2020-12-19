@@ -27,8 +27,9 @@ LeetCode 题解
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Java](src/com/cier/solution/array/GenerateParentheses.java)|Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Java](src/com/cier/solution/sort/MergeKSortedLists.java)|Medium|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Java](src/com/cier/solution/list/SwapNodesInPairs.java)|Medium|
-|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](src/com/cier/solution/sort/RemoveDuplicatesFromSortedArray.java)|Medium|
-|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Java](src/com/cier/solution/dp/MaxSubArray.java)|Medium|
-|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](src/com/cier/solution/dp/MaxProfit.java)|Easy|
-|392|[is-subsequence](https://leetcode.com/problems/is-subsequence/)| [Java](src/com/cier/solution/dp/IsSubsequence.java)|Easy|
-|746|[min-cost-climbing-stairs](leetcode-cn.com/problems/min-cost-climbing-stairs/)| [Java](src/com/cier/solution/dp/MinCostClimbingStairs.java)|Easy|
+|25|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](src/com/cier/solution/sort/RemoveDuplicatesFromSortedArray.java)|Medium|
+|26|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Java](src/com/cier/solution/dp/MaxSubArray.java)|Medium|
+|27|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](src/com/cier/solution/dp/MaxProfit.java)|Easy|
+|28|[is-subsequence](https://leetcode.com/problems/is-subsequence/)| [Java](src/com/cier/solution/dp/IsSubsequence.java)|Easy|
+|29|[min-cost-climbing-stairs](leetcode-cn.com/problems/min-cost-climbing-stairs/)| [Java](src/com/cier/solution/dp/MinCostClimbingStairs.java)|Easy|
+|30|[remove-duplicates-from-sorted-array](leetcode-cn.com/problems/min-cost-climbing-stairs/)| [Java](src/com/cier/solution/array/RemoveDuplicates.java)|Easy|
