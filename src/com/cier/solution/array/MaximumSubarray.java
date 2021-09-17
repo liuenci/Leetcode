@@ -33,10 +33,20 @@ public class MaximumSubarray {
         return max;
     }
 
+    public int maxSubArray2(int[] array) {
+        int pre = array[0];
+        int max = array[0];
+        for (int i = 1; i < array.length; i++) {
+            max = Math.max(pre + array[i], array[i]);
+            pre = max;
+        }
+        return max;
+    }
+
     public static void main(String[] args) {
         int[] nums = {-1,-2,-3,-5,6,3};
         MaximumSubarray subarray = new MaximumSubarray();
-        subarray.maxSubArray1(nums);
+        subarray.maxSubArray2(nums);
         System.out.println("end");
     }
 }
