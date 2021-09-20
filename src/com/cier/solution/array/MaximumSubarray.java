@@ -33,12 +33,23 @@ public class MaximumSubarray {
         return max;
     }
 
+    /**
+     * 暴力的滑动窗口-超时
+     * @param array
+     * @return
+     */
     public int maxSubArray2(int[] array) {
-        int pre = array[0];
+        int windowSize = 1;
         int max = array[0];
-        for (int i = 1; i < array.length; i++) {
-            max = Math.max(pre + array[i], array[i]);
-            pre = max;
+        while (windowSize <= array.length) {
+            for (int i = 0; i <= array.length - windowSize; i++) {
+                int sum = 0;
+                for (int j = i; j < i + windowSize ; j++) {
+                    sum += array[j];
+                }
+                max = Math.max(sum, max);
+            }
+            windowSize++;
         }
         return max;
     }
@@ -46,7 +57,7 @@ public class MaximumSubarray {
     public static void main(String[] args) {
         int[] nums = {-1,-2,-3,-5,6,3};
         MaximumSubarray subarray = new MaximumSubarray();
-        subarray.maxSubArray2(nums);
+        System.out.println(subarray.maxSubArray2(nums));
         System.out.println("end");
     }
 }
