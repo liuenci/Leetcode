@@ -10,8 +10,8 @@ public class MinCostClimbingStairs {
     public static void main(String[] args) {
         MinCostClimbingStairs minCostClimbingStairs = new MinCostClimbingStairs();
         // 0,0,0,1
-        int[] cost = {1, 1, 0, 0};
-        System.out.println(minCostClimbingStairs.minCostClimbingStairs(cost));
+        int[] cost = {10, 15, 20};
+        System.out.println(minCostClimbingStairs.minCostClimbingStairs2(cost));
     }
 
     /**
@@ -52,5 +52,12 @@ public class MinCostClimbingStairs {
             dp[i] = Math.min(dp[i - 2] + cost[i - 1], dp[i - 1] + cost[i]);
         }
         return dp[length - 1];
+    }
+
+    public int minCostClimbingStairs2(int[] cost) {
+        for (int i = 2; i < cost.length; i++) {
+            cost[i] += Math.min(cost[i - 1], cost[i - 2]);
+        }
+        return Math.min(cost[cost.length - 1], cost[cost.length - 2]);
     }
 }
