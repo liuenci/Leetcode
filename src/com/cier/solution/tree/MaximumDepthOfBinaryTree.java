@@ -12,4 +12,11 @@ public class MaximumDepthOfBinaryTree {
         }
 
     }
+
+    public int maxDepth1(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return Math.max(maxDepth1(root.left), maxDepth1(root.right)) + 1;
+    }
 }
