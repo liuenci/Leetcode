@@ -9,7 +9,7 @@ public class SymmetricTree {
         if (root == null) {
             return true;
         }
-        flag = isSymmetricHelper(root.left,root.right);
+        flag = isSymmetricHelper(root.left, root.right);
         return flag;
     }
 
@@ -22,7 +22,7 @@ public class SymmetricTree {
         } else if (left == null && right != null) {
             return false;
         } else {
-            if (left.val != right.val){
+            if (left.val != right.val) {
                 return false;
             } else {
                 flag = isSymmetricHelper(left.left, right.right);
