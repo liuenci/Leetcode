@@ -19,4 +19,15 @@ public class PreOrderTraversal {
         preorderTraversal(root.right);
         return list;
     }
+
+    public List<Integer> preorderTraversal1(TreeNode root) {
+
+        if (root == null) {
+            return list;
+        }
+        list.add(root.val);
+        preorderTraversal1(root.left);
+        preorderTraversal(root.right);
+        return list;
+    }
 }
