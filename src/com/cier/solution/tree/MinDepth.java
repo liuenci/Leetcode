@@ -14,6 +14,7 @@ public class MinDepth {
         if (root == null) {
             return 0;
         }
+        // 最小深度定义为到最近叶子节点的深度,当左右子树都为空，最小深度才为1 .
         if (root.left == null && root.right != null) {
             return 1 + minDepth(root.right);
         }
