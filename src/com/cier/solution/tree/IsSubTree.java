@@ -8,7 +8,7 @@ import com.cier.solution.common.TreeNode;
  * @author: liuenci
  * @create: 2021-12-10 20:11
  **/
-public class IsSubtree {
+public class IsSubTree {
 
     /**
      * 三种情况：
