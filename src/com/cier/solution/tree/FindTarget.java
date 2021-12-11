@@ -15,39 +15,20 @@ import java.util.Set;
  **/
 public class FindTarget {
 
-    List<Integer> res = new ArrayList<>();
     public boolean findTarget(TreeNode root, int k) {
         Set<Integer> set = new HashSet<>();
-        dfs(root);
-        for (Integer a : res) {
-            if (set.contains(k - a)) {
-                return true;
-            } else {
-                set.add(k - a);
-            }
-        }
-        return false;
+        return dfs(root, set, k);
     }
 
-    public void dfs(TreeNode root) {
+    public boolean dfs(TreeNode root, Set<Integer> set, int k) {
         if (root == null) {
-            return;
+            return false;
         }
-        dfs(root.left);
-        res.add(root.val);
-        dfs(root.right);
-    }
-
-    public static void main(String[] args) {
-        TreeNode node1 = new TreeNode(2);
-        TreeNode node2 = new TreeNode(1);
-        TreeNode node3 = new TreeNode(3);
-        node1.left = node2;
-        node1.right = node3;
-
-        FindTarget findTarget = new FindTarget();
-        boolean target = findTarget.findTarget(node1, 3);
-        System.out.println(target);
-
+        if (set.contains(k - root.val)) {
+            return true;
+        } else {
+            set.add(root.val);
+        }
+        return dfs(root.left, set, k) || dfs(root.right, set, k);
     }
 }
