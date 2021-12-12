@@ -1,10 +1,6 @@
 package com.cier.solution.tree;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 import java.util.PriorityQueue;
-import java.util.stream.Collectors;
 
 /**
  * @program: Leetcode
@@ -15,6 +11,7 @@ import java.util.stream.Collectors;
 public class KthLargest {
     PriorityQueue<Integer> queue = new PriorityQueue<>();
     int searchKey = 0;
+
     public KthLargest(int k, int[] nums) {
         searchKey = k;
         for (int i = 0; i < nums.length; i++) {
