@@ -23,7 +23,7 @@ public class IsCousins {
 
     public void dfs(TreeNode node, int depth, int x, int y, int pre) {
         if (node == null) {
-            return; 
+            return;
         }
         if (node.val == x) {
             xDepth = depth;
