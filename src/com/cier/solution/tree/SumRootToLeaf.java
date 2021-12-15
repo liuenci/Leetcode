@@ -10,6 +10,8 @@ import java.util.List;
  */
 public class SumRootToLeaf {
 
+    public List<String> res = new ArrayList<>();
+
     public int sumRootToLeaf(TreeNode root) {
         dfs(root, "");
         int sum = 0;
@@ -18,8 +20,6 @@ public class SumRootToLeaf {
         }
         return sum;
     }
-
-    public List<String> res = new ArrayList<>();
 
     public void dfs(TreeNode root, String str) {
         if (root == null) {
