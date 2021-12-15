@@ -5,6 +5,9 @@ import com.cier.solution.common.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 从根到叶的二进制数之和
+ */
 public class SumRootToLeaf {
 
     public int sumRootToLeaf(TreeNode root) {
