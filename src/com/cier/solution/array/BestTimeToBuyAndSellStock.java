@@ -1,6 +1,8 @@
 package com.cier.solution.array;
 
-// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/221860/A-really-easy-understand-java-method
+/*
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/221860/A-really-easy-understand-java-method
+ */
 public class BestTimeToBuyAndSellStock {
 
     public int maxProfit(int[] prices) {
