@@ -1,7 +1,9 @@
 package com.cier.solution.array;
 
-/*
+/**
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/221860/A-really-easy-understand-java-method
+ *
+ * @author liuenci
  */
 public class BestTimeToBuyAndSellStock {
 
