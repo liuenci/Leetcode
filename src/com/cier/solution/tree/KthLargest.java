@@ -1,5 +1,9 @@
 package com.cier.solution.tree;
 
+import com.cier.solution.common.TreeNode;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.PriorityQueue;
 
 /**
@@ -11,6 +15,7 @@ import java.util.PriorityQueue;
 public class KthLargest {
     PriorityQueue<Integer> queue = new PriorityQueue<>();
     int searchKey = 0;
+    List<Integer> list = new ArrayList<>();
 
     public KthLargest(int k, int[] nums) {
         searchKey = k;
@@ -25,5 +30,19 @@ public class KthLargest {
             queue.poll();
         }
         return queue.peek();
+    }
+
+    public int kthLargest(TreeNode root, int k) {
+        dfs(root);
+        return list.get(k - 1);
+    }
+
+    public void dfs(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        dfs(root.right);
+        list.add(root.val);
+        dfs(root.left);
     }
 }
