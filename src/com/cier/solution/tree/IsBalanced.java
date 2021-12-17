@@ -17,7 +17,7 @@ public class IsBalanced {
         return isBalanced(root.left) && isBalanced(root.right) && Math.abs(maxDepth(root.left) - maxDepth(root.right)) <= 1;
     }
 
-    private int maxDepth(TreeNode root) {
-        return root == null ? 0 : Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+    public int maxDepth(TreeNode node) {
+        return node == null ? 0 : Math.max(maxDepth(node.left), maxDepth(node.right)) + 1;
     }
 }
