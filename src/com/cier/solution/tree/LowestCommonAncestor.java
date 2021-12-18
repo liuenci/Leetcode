@@ -42,16 +42,29 @@ public class LowestCommonAncestor {
         return equals(res1, res2);
     }
 
+    /**
+     * TODO 获取某个节点的路径
+     * @param root
+     * @param node
+     * @param res
+     */
     public void path(TreeNode root, TreeNode node, List<TreeNode> res) {
         if (root == null) {
             return;
         }
-        if (root.val == node.val) {
+        res.add(root);
+        if (root == node) {
             return;
         }
-        res.add(root);
-        path(root.left, node, res);
-        path(root.right, node, res);
+        if (res.get(res.size() - 1) != node) {
+            path(root.left, node, res);
+        }
+        if (res.get(res.size() - 1) != node) {
+            path(root.right, node, res);
+        }
+        if (res.get(res.size() - 1) != node) {
+            res.remove(res.size() - 1);
+        }
     }
 
     public TreeNode equals(List<TreeNode> res1, List<TreeNode> res2) {
