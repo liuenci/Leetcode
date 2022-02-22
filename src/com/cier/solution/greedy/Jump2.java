@@ -7,6 +7,7 @@ package com.cier.solution.greedy;
 public class Jump2 {
 
     /**
+     * 贪心思路
      * 遍历数组，每次算出当前位置上能走的最大步数 + 每个步数到达的位置中能到达的最大步数，每次取大值。
      * @param nums
      * @return
