@@ -30,5 +30,6 @@ public class Jump1 {
 //            }
 //        }
 //        return flag;
+        return true;
     }
 }
