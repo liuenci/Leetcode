@@ -14,27 +14,35 @@ public class IsInterleave {
     }
 
     public boolean isInterleave(String s1, String s2, String s3) {
-        if (s1.length() + s2.length() != s3.length()) {
-            return false;
-        }
-        return isInterleave(s1, s2, s3, 0, 0, 0);
-    }
-
-    public boolean isInterleave(String s1, String s2, String s3, int a, int b, int c) {
-        if (c >= s3.length() || (a == s1.length() && s2.substring(b, s2.length()).equals(s3.substring(c, s3.length()))) || (b == s2.length() && s1.substring(a, s1.length()).equals(s3.substring(c, s3.length())))) {
-            return true;
-        } else if (a == s1.length() || b == s2.length()) {
+        int m = s1.length();
+        int n = s2.length();
+        int p = s3.length();
+        if (m + n != p) {
             return false;
         }
 
-        if (s1.charAt(a) == s3.charAt(c) && s2.charAt(b) == s3.charAt(c)) {
-            return isInterleave(s1, s2, s3, a + 1, b, c + 1) || isInterleave(s1, s2, s3, a, b + 1, c + 1);
-        } else if (s1.charAt(a) == s3.charAt(c)) {
-            return isInterleave(s1, s2, s3, a + 1, b, c + 1);
-        } else if (s2.charAt(b) == s3.charAt(c)) {
-            return isInterleave(s1, s2, s3, a, b + 1, c + 1);
-        } else {
-            return false;
+        boolean[][] dp = new boolean[m + 1][n + 1];
+        dp[0][0] = true;
+        for (int i = 1; i <= m; i++) {
+            if (s1.charAt(i - 1) == s3.charAt(i - 1)) {
+                dp[i][0] = true;
+            } else {
+                break;
+            }
         }
+        for (int i = 1; i <= n; i++) {
+            if (s2.charAt(i - 1) == s3.charAt(i - 1)) {
+                dp[0][i] = true;
+            } else {
+                break;
+            }
+        }
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                dp[i][j] = (dp[i - 1][j] && s1.charAt(i - 1) == s3.charAt(i + j - 1)) ||
+                        (dp[i][j - 1] && s2.charAt(j - 1) == s3.charAt(i + j - 1));
+            }
+        }
+        return dp[m][n];
     }
 }
