@@ -47,6 +47,36 @@ public class LengthOfLongestSubstring {
 
     public static void main(String[] args) {
         LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
-        System.out.println(lengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(lengthOfLongestSubstring.lengthOfLongestSubstring1("au"));
+    }
+
+
+    /**
+     * 用双指针维护一个滑动窗口，用来剪切子串
+     * 不断移动右指针，遇到重复字符，就将左指针移动到重复字符的下一位。
+     * 过程中记录窗口的最大值。
+     * @param s
+     * @return
+     */
+    public int lengthOfLongestSubstring1(String s) {
+        if (s == null || s.equals("")) {
+            return 0;
+        }
+        int slowIndex = 0;
+        int fastIndex = 1;
+        int max = 1;
+        for (int i = 1; i < s.length(); i++) {
+            String substring = s.substring(slowIndex, fastIndex);
+            char temp = s.charAt(i);
+            for (int j = 0; j < substring.length(); j++) {
+                if (temp == substring.charAt(j)) {
+                    max = Math.max(max, fastIndex - slowIndex);
+                    slowIndex = slowIndex + j + 1;
+                    break;
+                }
+            }
+            fastIndex++;
+        }
+        return Math.max(max, fastIndex - slowIndex);
     }
 }
