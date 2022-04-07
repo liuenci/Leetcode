@@ -1,7 +1,5 @@
 package com.cier.solution.string;
 
-import com.sun.org.apache.regexp.internal.RE;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -80,7 +78,7 @@ public class FirstUniqueCharacterInAString {
                 break;
             }
         }
-        for (Map.Entry<Character, Integer> entry :cToIndexMapping.entrySet()) {
+        for (Map.Entry<Character, Integer> entry : cToIndexMapping.entrySet()) {
             if (entry.getValue() == idx) {
                 return entry.getKey();
             }
