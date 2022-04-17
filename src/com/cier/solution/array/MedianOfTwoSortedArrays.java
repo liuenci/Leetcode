@@ -2,6 +2,10 @@ package com.cier.solution.array;
 
 import java.util.Arrays;
 
+/**
+ * 寻找两个正序数组的中位数
+ * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
+ */
 public class MedianOfTwoSortedArrays {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
