@@ -1,6 +1,6 @@
 package com.cier.solution.string;
 
-// https://leetcode.com/problems/reverse-integer/description/
+// https://leetcode-cn.com/problems/reverse-integer/description/
 public class ReverseInteger {
 
     public static int reverse(int x) {

@@ -1,5 +1,5 @@
 package com.cier.solution.dp;
-// https://leetcode.com/problems/climbing-stairs/
+// https://leetcode-cn.com/problems/climbing-stairs/
 public class ClimbingStairs {
     public int climbStairs(int n) {
         if (n == 1 || n == 2){

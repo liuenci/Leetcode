@@ -1,6 +1,6 @@
 package com.cier.solution.string;
 
-// https://leetcode.com/problems/count-and-say/
+// https://leetcode-cn.com/problems/count-and-say/
 public class CountAndSay {
     public String countAndSay(int n) {
         if (n == 1){

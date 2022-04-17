@@ -2,7 +2,7 @@ package com.cier.solution.tree;
 
 import com.cier.solution.common.TreeLinkNode;
 
-// https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+// https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/
 public class PopulatingNextRightPointersInEachNode {
     public void connect(TreeLinkNode root) {
         if (root == null) {

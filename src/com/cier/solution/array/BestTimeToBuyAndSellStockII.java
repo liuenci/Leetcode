@@ -1,5 +1,5 @@
 package com.cier.solution.array;
-// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 public class BestTimeToBuyAndSellStockII {
     public int maxProfit(int[] prices) {
         int maxProfix = 0;

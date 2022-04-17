@@ -1,5 +1,5 @@
 package com.cier.solution.math;
-// https://leetcode.com/problems/count-primes/
+// https://leetcode-cn.com/problems/count-primes/
 public class CountPrimes {
     public int countPrimes(int n) {
         int count = 0;

@@ -1,5 +1,5 @@
 package com.cier.solution.math;
-// https://leetcode.com/problems/number-of-1-bits/
+// https://leetcode-cn.com/problems/number-of-1-bits/
 public class NumberOf1Bits {
     public int hammingWeight(int n) {
         int bits = 0;

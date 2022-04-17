@@ -4,7 +4,7 @@ import com.cier.solution.common.TreeNode;
 
 import java.util.TreeMap;
 
-// https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+// https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/
 public class ConvertSortedArrayToBinarySearchTree {
     public TreeNode sortedArrayToBST(int[] nums) {
         if (nums.length == 0) {

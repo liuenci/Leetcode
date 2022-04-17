@@ -1,5 +1,5 @@
 package com.cier.solution.array;
-// https://leetcode.com/problems/longest-common-prefix/
+// https://leetcode-cn.com/problems/longest-common-prefix/
 public class LongestCommonPrefix {
     // 水平扫描
     public String longestCommonPrefix(String[] strs) {

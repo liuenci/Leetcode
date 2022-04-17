@@ -1,7 +1,7 @@
 package com.cier.solution.array;
 
 /**
- * https://leetcode.com/problems/string-to-integer-atoi/
+ * https://leetcode-cn.com/problems/string-to-integer-atoi/
  */
 public class StringToInteger {
     public int myAtoi(String str) {

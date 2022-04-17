@@ -3,7 +3,7 @@ package com.cier.solution.StackAndQueue;
 import java.util.Stack;
 
 /**
- * https://leetcode.com/problems/valid-parentheses/
+ * https://leetcode-cn.com/problems/valid-parentheses/
  */
 public class ValidParentheses {
     /**

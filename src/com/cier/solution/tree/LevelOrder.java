@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+ * https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/
  */
 public class LevelOrder {
 

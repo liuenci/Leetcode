@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/3sum/
+ * https://leetcode-cn.com/problems/3sum/
  */
 public class ThreeSum {
     /**

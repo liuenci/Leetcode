@@ -3,7 +3,7 @@ package com.cier.solution.sort;
 import com.cier.solution.common.ListNode;
 
 /**
- * https://leetcode.com/problems/merge-two-sorted-lists/
+ * https://leetcode-cn.com/problems/merge-two-sorted-lists/
  */
 public class MergeTwoSortedLists {
 

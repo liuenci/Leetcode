@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Stack;
 
-//https://leetcode.com/problems/maximum-binary-tree/description/
+//https://leetcode-cn.com/problems/maximum-binary-tree/description/
 public class MaxTree {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         // 创建节点数组，将入参中的值传入节点数组中。

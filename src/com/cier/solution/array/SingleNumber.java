@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-// https://leetcode.com/problems/single-number/
+// https://leetcode-cn.com/problems/single-number/
 public class SingleNumber {
     public int singleNumber(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();

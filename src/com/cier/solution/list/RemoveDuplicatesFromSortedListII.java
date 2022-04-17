@@ -2,7 +2,7 @@ package com.cier.solution.list;
 
 import com.cier.solution.common.ListNode;
 
-// https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
 // 1 2 3 3 4 4 5
 public class RemoveDuplicatesFromSortedListII {
 

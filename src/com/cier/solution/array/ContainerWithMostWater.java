@@ -1,7 +1,7 @@
 package com.cier.solution.array;
 
 /**
- * https://leetcode.com/problems/container-with-most-water/description/
+ * https://leetcode-cn.com/problems/container-with-most-water/description/
  */
 public class ContainerWithMostWater {
     /**

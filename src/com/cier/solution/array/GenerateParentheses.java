@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/generate-parentheses/
+ * https://leetcode-cn.com/problems/generate-parentheses/
  */
 public class GenerateParentheses {
     /**

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// https://leetcode.com/problems/intersection-of-two-arrays-ii/
+// https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
 public class IntersectionOfTwoArraysII {
 
     public int[] intersect(int[] nums1, int[] nums2) {

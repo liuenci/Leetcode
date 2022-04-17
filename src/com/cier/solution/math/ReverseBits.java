@@ -1,6 +1,6 @@
 package com.cier.solution.math;
 
-// https://leetcode.com/problems/reverse-bits/
+// https://leetcode-cn.com/problems/reverse-bits/
 public class ReverseBits {
     public int reverseBits(int n) {
         int result = 0;

@@ -2,7 +2,7 @@ package com.cier.solution.list;
 
 import com.cier.solution.common.ListNode;
 
-// https://leetcode.com/problems/reverse-linked-list/
+// https://leetcode-cn.com/problems/reverse-linked-list/
 public class ReverseLinkedList {
     // 迭代
     public ListNode reverseList(ListNode head) {

@@ -1,5 +1,5 @@
 package com.cier.solution.math;
-// https://leetcode.com/problems/power-of-three/
+// https://leetcode-cn.com/problems/power-of-three/
 public class PowerOfThree {
     public boolean isPowerOfThree(int n) {
         if (n < 1) {

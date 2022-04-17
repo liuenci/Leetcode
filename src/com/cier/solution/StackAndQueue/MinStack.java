@@ -1,7 +1,7 @@
 package com.cier.solution.StackAndQueue;
 
 import java.util.Stack;
-// https://leetcode.com/problems/min-stack/description/
+// https://leetcode-cn.com/problems/min-stack/description/
 public class MinStack {
 
     private Stack<Integer> stack = new Stack<>();

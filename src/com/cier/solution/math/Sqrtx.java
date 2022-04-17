@@ -1,5 +1,5 @@
 package com.cier.solution.math;
-// https://leetcode.com/problems/sqrtx/
+// https://leetcode-cn.com/problems/sqrtx/
 public class Sqrtx {
 
     public int mySqrt(int x) {

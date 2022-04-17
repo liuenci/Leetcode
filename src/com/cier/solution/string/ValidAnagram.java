@@ -2,7 +2,7 @@ package com.cier.solution.string;
 
 import java.util.HashMap;
 
-// https://leetcode.com/problems/valid-anagram/discuss/224783/Java-O(n)-time-complexity-and-space-comparing-HashMaps
+// https://leetcode-cn.com/problems/valid-anagram/discuss/224783/Java-O(n)-time-complexity-and-space-comparing-HashMaps
 public class ValidAnagram {
 
     public boolean isAnagram(String s, String t) {

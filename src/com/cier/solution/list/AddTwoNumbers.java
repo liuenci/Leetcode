@@ -6,7 +6,7 @@ import java.math.BigInteger;
 
 /**
  * 两数相加
- * https://leetcode.com/problems/add-two-numbers/
+ * https://leetcode-cn.com/problems/add-two-numbers/
  */
 public class AddTwoNumbers {
     /**

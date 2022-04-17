@@ -2,7 +2,7 @@ package com.cier.solution.sort;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/valid-anagram/
+// https://leetcode-cn.com/problems/valid-anagram/
 public class ValidAnagram {
 
     public boolean isAnagram(String s, String t) {

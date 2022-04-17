@@ -2,7 +2,7 @@ package com.cier.solution.array;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/missing-number/
+// https://leetcode-cn.com/problems/missing-number/
 public class MissingNumber {
 
     public int missingNumber(int[] nums) {

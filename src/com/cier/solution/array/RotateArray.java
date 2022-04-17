@@ -1,5 +1,5 @@
 package com.cier.solution.array;
-// https://leetcode.com/problems/rotate-array
+// https://leetcode-cn.com/problems/rotate-array
 public class RotateArray {
     public void rotate(int[] nums, int k) {
         if (nums == null || nums.length == 0) {

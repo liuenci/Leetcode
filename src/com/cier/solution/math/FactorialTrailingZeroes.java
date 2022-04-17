@@ -1,6 +1,6 @@
 package com.cier.solution.math;
 
-// https://leetcode.com/problems/factorial-trailing-zeroes/
+// https://leetcode-cn.com/problems/factorial-trailing-zeroes/
 public class FactorialTrailingZeroes {
     public int trailingZeroes(int n) {
         int r = 0;

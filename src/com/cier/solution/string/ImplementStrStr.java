@@ -1,6 +1,6 @@
 package com.cier.solution.string;
 
-// https://leetcode.com/problems/implement-strstr/
+// https://leetcode-cn.com/problems/implement-strstr/
 public class ImplementStrStr {
 
     public int strStr(String haystack, String needle) {

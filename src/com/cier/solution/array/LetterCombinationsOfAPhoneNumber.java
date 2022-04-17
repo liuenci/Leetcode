@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
+ * https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/description/
  */
 public class LetterCombinationsOfAPhoneNumber {
     public List<String> letterCombinations(String digits) {

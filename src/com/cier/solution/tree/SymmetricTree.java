@@ -2,7 +2,7 @@ package com.cier.solution.tree;
 
 import com.cier.solution.common.TreeNode;
 
-// https://leetcode.com/problems/symmetric-tree/
+// https://leetcode-cn.com/problems/symmetric-tree/
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         boolean flag = true;

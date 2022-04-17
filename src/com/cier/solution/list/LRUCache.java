@@ -2,7 +2,7 @@ package com.cier.solution.list;
 
 import java.util.HashMap;
 
-// https://leetcode.com/problems/lru-cache/submissions/
+// https://leetcode-cn.com/problems/lru-cache/submissions/
 public class LRUCache {
     // HashMap 保证插入结点和查找结点的时间复杂度为 O(1)
     HashMap<Integer,Node> map;

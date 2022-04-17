@@ -2,7 +2,7 @@ package com.cier.solution.StackAndQueue;
 
 import java.util.LinkedList;
 
-//https://leetcode.com/problems/sliding-window-maximum/description/
+//https://leetcode-cn.com/problems/sliding-window-maximum/description/
 public class MaxWindow {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (null == nums || nums.length == 0) {

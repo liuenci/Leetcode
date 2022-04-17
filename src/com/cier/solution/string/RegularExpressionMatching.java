@@ -1,7 +1,7 @@
 package com.cier.solution.string;
 
 /**
- * https://leetcode.com/problems/regular-expression-matching/
+ * https://leetcode-cn.com/problems/regular-expression-matching/
  */
 public class RegularExpressionMatching {
     /**

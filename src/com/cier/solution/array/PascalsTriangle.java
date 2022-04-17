@@ -3,7 +3,7 @@ package com.cier.solution.array;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/pascals-triangle/
+// https://leetcode-cn.com/problems/pascals-triangle/
 public class PascalsTriangle {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();

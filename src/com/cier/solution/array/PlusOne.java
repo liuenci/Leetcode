@@ -1,5 +1,5 @@
 package com.cier.solution.array;
-// https://leetcode.com/problems/plus-one/
+// https://leetcode-cn.com/problems/plus-one/
 public class PlusOne {
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {

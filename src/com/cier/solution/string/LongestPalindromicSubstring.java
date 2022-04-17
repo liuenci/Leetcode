@@ -1,7 +1,7 @@
 package com.cier.solution.string;
 
 /**
- * https://leetcode.com/problems/longest-palindromic-substring
+ * https://leetcode-cn.com/problems/longest-palindromic-substring
  */
 public class LongestPalindromicSubstring {
     /**

@@ -2,7 +2,7 @@ package com.cier.solution.StackAndQueue;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/implement-queue-using-stacks/description/
+// https://leetcode-cn.com/problems/implement-queue-using-stacks/description/
 public class MyQueue {
     private Stack<Integer> inStack = new Stack<>();
     private Stack<Integer> outStack = new Stack<>();

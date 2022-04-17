@@ -2,7 +2,7 @@ package com.cier.solution.list;
 
 import com.cier.solution.common.ListNode;
 
-// https://leetcode.com/problems/intersection-of-two-linked-lists/
+// https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
 public class IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int lengthA = length(headA);

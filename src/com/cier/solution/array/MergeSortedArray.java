@@ -1,5 +1,5 @@
 package com.cier.solution.array;
-// https://leetcode.com/problems/merge-sorted-array/
+// https://leetcode-cn.com/problems/merge-sorted-array/
 public class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         while (m > 0 || n > 0) {

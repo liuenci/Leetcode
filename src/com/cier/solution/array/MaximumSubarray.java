@@ -1,6 +1,6 @@
 package com.cier.solution.array;
 
-// https://leetcode.com/problems/maximum-subarray/
+// https://leetcode-cn.com/problems/maximum-subarray/
 public class MaximumSubarray {
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class MaximumSubarray {
         return max;
     }
 
-    // author url :https://leetcode.com/problems/maximum-subarray/discuss/211809/An-easy-java-solution
+    // author url :https://leetcode-cn.com/problems/maximum-subarray/discuss/211809/An-easy-java-solution
     public int maxSubArray1(int[] nums) {
         int max = Integer.MIN_VALUE;
         int currentSum = 0;

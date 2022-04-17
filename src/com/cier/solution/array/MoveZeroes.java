@@ -1,5 +1,5 @@
 package com.cier.solution.array;
-// https://leetcode.com/problems/move-zeroes/
+// https://leetcode-cn.com/problems/move-zeroes/
 public class MoveZeroes {
     // [0,1,0,3,12]
     public void moveZeroes(int[] nums) {

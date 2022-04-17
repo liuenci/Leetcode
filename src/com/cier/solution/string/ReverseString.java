@@ -1,5 +1,5 @@
 package com.cier.solution.string;
-// https://leetcode.com/problems/reverse-string/
+// https://leetcode-cn.com/problems/reverse-string/
 public class ReverseString {
 
     // ["h","e","l","l"]

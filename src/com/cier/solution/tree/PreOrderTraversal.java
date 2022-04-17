@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/binary-tree-preorder-traversal/description/
+ * https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/
  */
 public class PreOrderTraversal {
     List<Integer> list = new ArrayList<>();

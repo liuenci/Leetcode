@@ -3,7 +3,7 @@ package com.cier.solution.array;
 import java.util.ArrayList;
 import java.util.List;
 
-// https://leetcode.com/problems/fizz-buzz/solution/
+// https://leetcode-cn.com/problems/fizz-buzz/solution/
 public class FizzBuzz {
     public List<String> fizzBuzz(int n) {
         List<String> result = new ArrayList<>();

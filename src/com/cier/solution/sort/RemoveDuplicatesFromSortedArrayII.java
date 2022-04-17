@@ -1,5 +1,5 @@
 package com.cier.solution.sort;
-// https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
 public class RemoveDuplicatesFromSortedArrayII {
     public int removeDuplicates(int[] nums) {
         // 设置一个指针 i 来标志满足要求的元素个数

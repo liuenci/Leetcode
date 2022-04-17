@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/
+ * https://leetcode-cn.com/problems/binary-tree-inorder-traversal/submissions/
  * 在二叉树中，中序遍历首先遍历左子树，然后访问根结点，最后遍历右子树。
  */
 public class InOrderTraversal {

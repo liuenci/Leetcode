@@ -2,7 +2,7 @@ package com.cier.solution.array;
 
 import java.util.HashSet;
 
-// https://leetcode.com/problems/contains-duplicate/
+// https://leetcode-cn.com/problems/contains-duplicate/
 public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();

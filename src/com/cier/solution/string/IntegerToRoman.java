@@ -1,7 +1,7 @@
 package com.cier.solution.string;
 
 /**
- * https://leetcode.com/problems/integer-to-roman/
+ * https://leetcode-cn.com/problems/integer-to-roman/
  */
 public class IntegerToRoman {
     /**

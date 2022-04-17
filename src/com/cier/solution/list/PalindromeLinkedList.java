@@ -2,7 +2,7 @@ package com.cier.solution.list;
 
 import com.cier.solution.common.ListNode;
 
-// https://leetcode.com/problems/palindrome-linked-list/
+// https://leetcode-cn.com/problems/palindrome-linked-list/
 public class PalindromeLinkedList {
 
     public boolean isPalindrome(ListNode head) {

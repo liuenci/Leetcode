@@ -1,6 +1,6 @@
 package com.cier.solution.string;
 
-// https://leetcode.com/problems/excel-sheet-column-number/
+// https://leetcode-cn.com/problems/excel-sheet-column-number/
 public class ExcelSheetColumnNumber {
 
     public int titleToNumber(String s) {

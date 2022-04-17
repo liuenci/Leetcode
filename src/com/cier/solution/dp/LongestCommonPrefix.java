@@ -1,7 +1,7 @@
 package com.cier.solution.dp;
 
 /**
- * https://leetcode.com/problems/longest-common-prefix/
+ * https://leetcode-cn.com/problems/longest-common-prefix/
  */
 public class LongestCommonPrefix {
     /**

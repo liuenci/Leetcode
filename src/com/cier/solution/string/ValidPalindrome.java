@@ -1,5 +1,5 @@
 package com.cier.solution.string;
-// https://leetcode.com/problems/valid-palindrome
+// https://leetcode-cn.com/problems/valid-palindrome
 
 //"A man, a plan, a canal: Panama"
 

@@ -3,7 +3,7 @@ package com.cier.solution.list;
 import com.cier.solution.common.ListNode;
 
 /**
- * https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+ * https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/
  */
 public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {

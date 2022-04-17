@@ -3,7 +3,7 @@ package com.cier.solution.string;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Stack;
-// https://leetcode.com/problems/valid-parentheses/solution/
+// https://leetcode-cn.com/problems/valid-parentheses/solution/
 public class ValidParentheses {
 
     public boolean isValid(String s) {

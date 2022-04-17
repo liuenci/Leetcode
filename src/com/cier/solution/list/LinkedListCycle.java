@@ -4,7 +4,7 @@ import com.cier.solution.common.ListNode;
 
 import java.util.HashSet;
 
-// https://leetcode.com/problems/linked-list-cycle/
+// https://leetcode-cn.com/problems/linked-list-cycle/
 public class LinkedListCycle {
 
     public boolean hasCycle(ListNode head) {

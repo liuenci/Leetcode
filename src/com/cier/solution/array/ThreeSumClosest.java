@@ -3,7 +3,7 @@ package com.cier.solution.array;
 import java.util.Arrays;
 
 /**
- *https://leetcode.com/problems/3sum-closest/description/
+ *https://leetcode-cn.com/problems/3sum-closest/description/
  */
 public class ThreeSumClosest {
     /**
